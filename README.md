@@ -5,8 +5,8 @@ uma barrinha até que bem util para servidores.
 ```pawn
 public OnPlayerConnect(playerid)
 {
-  swarning(playerid, "Conta_Logada", "Conta Logada", "Login efetuado com sucesso.");
-  return 1;
+	swarning(playerid, "Conta_Logada", "Conta Logada", "Login efetuado com sucesso.");
+	return 1;
 }
 
 Warning:Conta_Logada(playerid, Float:p)
