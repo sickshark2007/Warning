@@ -1,5 +1,3 @@
-#include <YSI_Coding\y_hooks>
-
 #define Warning:%0(%1,%2) \
 	forward WNG_%0(%1,%2);public WNG_%0(%1,%2)
 
